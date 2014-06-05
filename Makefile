@@ -2,7 +2,7 @@ LDFLAGS=-lncurses
 
 CC=clang
 
-all: box goodbye cls add1 add2
+all: box goodbye cls add1 add2 add3
 
 clean:
 	rm -rf box
@@ -10,3 +10,4 @@ clean:
 	rm -rf cls
 	rm -rf add1
 	rm -rf add2
+	rm -rf add3
