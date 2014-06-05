@@ -2,7 +2,7 @@ LDFLAGS=-lncurses
 
 CC=clang
 
-all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2 sushi twinkle annoy colortest colorme color_me
+all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2 sushi twinkle annoy colortest colorme color_me bgcolor1
 
 clean:
 	rm -rf box
@@ -21,3 +21,4 @@ clean:
 	rm -rf colortest
 	rm -rf colorme
 	rm -rf color_me
+	rm -rf bgcolor1
