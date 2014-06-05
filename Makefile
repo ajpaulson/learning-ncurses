@@ -2,7 +2,7 @@ LDFLAGS=-lncurses
 
 CC=clang
 
-all: box goodbye cls add1 add2 add3 yoda typewriter string1
+all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2
 
 clean:
 	rm -rf box
@@ -14,3 +14,4 @@ clean:
 	rm -rf yoda
 	rm -rf typewriter
 	rm -rf string1
+	rm -rf string2
