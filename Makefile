@@ -2,7 +2,7 @@ LDFLAGS=-lncurses
 
 CC=clang
 
-all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2 sushi twinkle annoy colortest colorme color_me bgcolor1 bgcolor2 notice screensize
+all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2 sushi twinkle annoy colortest colorme color_me bgcolor1 bgcolor2 notice screensize stdscrsize
 
 clean:
 	rm -rf box
@@ -25,3 +25,4 @@ clean:
 	rm -rf bgcolor2
 	rm -rf notice
 	rm -rf screensize
+	rm -rf stdscrsize
