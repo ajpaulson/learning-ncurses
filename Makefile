@@ -2,7 +2,7 @@ LDFLAGS=-lncurses
 
 CC=clang
 
-all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2 sushi twinkle annoy colortest colorme color_me bgcolor1 bgcolor2 notice screensize stdscrsize corners1 corners2 ctitle mydata whereami hamlet1 hamlet2 hamlet3
+all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2 sushi twinkle annoy colortest colorme color_me bgcolor1 bgcolor2 notice screensize stdscrsize corners1 corners2 ctitle mydata whereami hamlet1 hamlet2 hamlet3 marquee1
 
 clean:
 	rm -rf box
@@ -34,3 +34,4 @@ clean:
 	rm -rf hamlet1
 	rm -rf hamlet2
 	rm -rf hamlet3
+	rm -rf marquee1
