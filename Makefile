@@ -2,7 +2,7 @@ LDFLAGS=-lncurses
 
 CC=clang
 
-all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2 sushi twinkle annoy colortest colorme color_me bgcolor1 bgcolor2 notice screensize stdscrsize corners1 corners2 ctitle mydata whereami hamlet1 hamlet2 hamlet3 marquee1 marquee2 hamlet4 hamlet5 hamlet6
+all: box goodbye cls add1 add2 add3 yoda typewriter string1 string2 sushi twinkle annoy colortest colorme color_me bgcolor1 bgcolor2 notice screensize stdscrsize corners1 corners2 ctitle mydata whereami hamlet1 hamlet2 hamlet3 marquee1 marquee2 hamlet4 hamlet5 hamlet6 blah1
 
 box: box
 goodbye: goodbye
@@ -36,8 +36,9 @@ hamlet3: hamlet3
 marquee1: marquee1
 marquee2: marquee2
 hamlet4: hamlet4
-hamlet4: hamlet5
-hamlet4: hamlet6
+hamlet5: hamlet5
+hamlet6: hamlet6
+blah1: blah1
 
 clean:
 	rm -rf box
@@ -74,3 +75,4 @@ clean:
 	rm -rf hamlet4
 	rm -rf hamlet5
 	rm -rf hamlet6
+	rm -rf blah1
