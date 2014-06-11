@@ -19,14 +19,9 @@ int main(int argc, char *argv[])
         }
         waddstr(two, "This is the new window created!\n");
         wrefresh(two);
+
         getch();
 
-        delwin(two);
-        addstr("The second window was removed.\n");
-        refresh();
-        getch();
-
-        endwin();
         endwin();
         return 0;
 }
