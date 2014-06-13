@@ -3,6 +3,7 @@
 int main(int argc, char *argv[])
 {
         initscr();
+        refresh();
 
         box(stdscr, '*', '*');
         refresh();
